@@ -19,6 +19,7 @@ menu:
   首页: / || fas fa-plane
   开往: https://travellings.now.sh || fas fa-car
   本站|| fas fa-home:
+    文章统计: tags/charts || fas fa-signal
     标 签: tags || fas fa-tags
     分 类: categories || fas fa-folder-open
     时间轴: archives || fas fa-archive
@@ -636,7 +637,9 @@ display_mode: dark
 beautify:
   enable: true
   field: site # site/post
-  title-prefix-icon: "🚀"
+  # title-prefix-icon: "⚽🎯✒️㊙️🈲🈹🆚💦🈁➡️"
+  title-prefix-icon: "➡️"
+  # title-prefix-icon-color: ""
   title-prefix-icon-color: "#00ff63"
 
 # Global font settings
@@ -656,7 +659,7 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: ⚽ # the unicode value of Font Awesome icon, such as '\3423'
+  icon: 💦 # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
@@ -702,7 +705,7 @@ aside:
       link: https://github.com/Weidows
   card_announcement:
     enable: true
-    content: <center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><img src="https://cdn.jsdelivr.net/gh/Weidows/Images@master/img/aimi.png" /><h2 style="color:deeppink">站内图片需要IPv6加载</h2></center>
+    content: '<center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><img src="https://cdn.jsdelivr.net/gh/Weidows/Images@master/img/aimi.png" /><h2 style="color:deeppink">站内图片需要IPv6加载</h2></center>'
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all
@@ -856,7 +859,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: true
+  enable: false
   field: post # site/post
 
 # Lazyload (圖片懶加載)
