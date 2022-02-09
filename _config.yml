@@ -542,7 +542,7 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
   "#000000"
-  # url(https://cdn.jsdelivr.net/gh/Weidows/Images/Fantasy/光宇科景/21.jpeg)
+  # url(https://47i7-my.sharepoint.com/personal/utsuko27_bilibili_hk_cn/Documents/Pictures/bed/gallery/Fantasy/光宇科景/21.jpeg)
 
 # Footer Background
 footer_bg: true
