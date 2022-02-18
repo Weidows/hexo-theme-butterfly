@@ -1,39 +1,15 @@
 /* 主页大标题 */
 #page-header
   #site-title
+  .post-title
     color #cf31ba
-
-/*页脚自定义字段字体颜色*/
-.copyright
-  color #00c4b6
-
-/*a标签颜色*/
-a
-  color #00c4b6
+    text-shadow 0 0 5px #fc199a, 0 0 10px #fc199a7c
 
 /*头部文字颜色*/
-#nav
-  a
-    color #00ffea
-
-/* valine美化 */
-#vedit
-  background-image url(https://cdn.jsdelivr.net/gh/Weidows/Images/img/mao.gif)
-  background-size contain
-  background-repeat no-repeat
-  background-position right
-  background-color rgba(255, 0, 191, 0.2)
-  resize vertical
-  &:focus
-    background-position-y 200px
-    transition all 0.2s ease-in-out 0s
-
-/* Aplayer样式改进 */
-.aplayer
-  &.aplayer-fixed
-    &.aplayer-narrow
-      .aplayer-body
-        left -66px !important
+a,
+#nav a,
+.copyright
+    color aqua
 
 /*底部信息*/
 .github-badge
@@ -76,13 +52,12 @@ a
 ::-webkit-scrollbar-thumb
   background-color: rgba(255, 86, 232, 0.815);
   background-image: -webkit-linear-gradient(
-    45deg,
-    #34bf49 25%,
-    transparent 25%,
-    transparent 50%,
-    #ff4c4c 50%,
-    #0099e5 75%,
-    transparent 75%,
+    75deg,
+    #007ec6 20%,
+    #4dc820 40%,
+    orange 60%,
+    #ff4c4c 80%,
+    #8833d7 100%,
     transparent
   );
   border-radius: 2em;
@@ -110,6 +85,7 @@ a,button,i,#upj
 #nav .site-page
   &:hover
     cursor url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAADVUlEQVRIibWWXWgUVxTHfzOTZDe7mzHZbGIIIqTaJKxCNMYi9UEwEkkEUdSXFvoUX1of6ge+CIotRehjLbRgXypIiQhRfCkVfLCNokkkqZu0hl0/1qRJzGqS3SUfuztz+7AzcViiMzu2f7gw986d87vnnnPPHXAuyWj/m6Tq6raPurqePO3sjMbWrNna5gao2EEAZceOnquVlS2by8qCVaraFH727OfLgCgGJDuY462qam0xO8Hgtq2ApxiIE5AMeBXFV74yIPvLDZCTRToGwerba7flrkD/iZyAVsswiSLT3ZVHjY0nPt+//+VUe/uD/oqKxmYnYLsVKUDNkSNi0joohK5LkiwDjI9fu5HJvEqsW3f44Ph4z9XBwS+OAbp1umuQVbqezclyaYnZv3fv0KcbNhw7qqrNTcPDJ0/H479cAUQhqLAv24EKtbycmPV4QlUAS0uT0zdv1q8HsmaMpNra3R2dnWNje/eOjIbDZ88B5auAbWVCABTF5yN/5iTZMFbS1nbpx0Dgw42qGm7etOn8ua6uWERVW1rdwEwlkyNPgFITBFA2PHzqW01bWDIn+f0fNOzZ03e7rm5fh1vQ3NzQY/PZ9EiamOi9dedOx3FNW1w2XyqK379zZ+9PbkHz85Ex8hkoZPLplwGSiUTf7/39n30jhL5Sma0ZVaxmZ/+MABq8qVk6kAO0ZHL0hSSVBGpqdrW8zYAzCfHo0ZdfaVrmFZAzY7TiFZAYGfn6u0Tij8j7YFKpx/FMJv0awyNrCbLAsjP3739yJpOZTbsFTU39ehfIYomRVTqwDMwtLLwYHRjovuAGIoQuYrFLPRbQW+8VHRCp1F8TXm9tfTC4vbkYUDT6/bV4/PIV8qHIvgskMPZ2cvLWUCi0vTUQ2FjvBDI9/dvAw4dHz+h69iWwgI1HFpiuP3/e06co3opQ6OMwSKtWCiF0EY1evD442H02l1v8B5gnH3PH1dsHBIFqVW0KNzR0H1i7tn2Lz9dQJ0mlSjr9dHpm5vZQLPZDbyr1dwRIAK8NbzTTkB1IMmAeQAUqAb/RN3dDM1aeNrxIAkvGuLAaspN5c5YCXqN5gBJjPEc+UxcNQNYAiEIjTiWRP3ey4Y31sOfIB10vBLgB2X3zzj/XfwGZgTBog2BRwgAAAABJRU5ErkJggg=="), auto
+
 
 /* 视觉差名片 */
 body
