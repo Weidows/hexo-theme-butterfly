@@ -65,8 +65,8 @@ social:
   fas fa-envelope: mailto:utsuko27@qq.com || Email
   fab fa-qq: https://cdn.jsdelivr.net/gh/Weidows/Images/img/QRcode/QQ.jpeg || QQ号
   fab fa-weixin: https://cdn.jsdelivr.net/gh/Weidows/Images/img/QRcode/We_Chat.jpeg || 微信号
-  fad fa-phone-rotary: +86-18330785221 || 手机号
-  fa post-title: categories/rss || RSS
+  fa fa-mobile: tags/resume || 手机号(反爬跳转)
+  fa fa-rss-square: categories/rss || RSS
 
 # search (搜索)
 # --------------------------------------
