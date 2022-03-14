@@ -546,8 +546,8 @@ tag_ui: # 留空或 index
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
-  "#000000"
-  # url()
+  # "#000000"
+  url(https://apibug.cn/api/ecy/&apiKey=f8cc70396a24d39e8ddac01bdf2bb0f7)
 
 # Footer Background
 footer_bg: true
@@ -689,7 +689,7 @@ aside:
       link: https://github.com/Weidows
   card_announcement:
     enable: true
-    content: '<center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><h3 style="color:gray">低情商：代码一坨屎<br>高情商：兼容性极强</h3><img src="https://count.getloli.com/get/@Weidows?theme=gelbooru" style="width: 100%" /></center>'
+    content: '<center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><h3 style="color:gray">低情商：代码一坨屎<br>高情商：兼容性极强</h3><img src="https://count.getloli.com/get/@Weidows?theme=rule34" style="width: 100%" /></center>'
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all
