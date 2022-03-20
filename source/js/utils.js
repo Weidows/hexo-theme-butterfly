@@ -277,8 +277,8 @@ const btf = {
   }
 }
 
-//- 我的美化
-var Weidows = {
+// ============================== 我的美化 ============================== //
+const Weidows = {
   //- 添加功能性标签/输出
   appender: function () {
     // 小火箭
@@ -339,27 +339,48 @@ var Weidows = {
       });
     })();
 
+    // live2d
+    addEventListener("DOMContentLoaded", function () {
+      let div = document.createElement("div");
+      div.className = "Canvas";
+      div.id = "L2dCanvas";
+      document.body.appendChild(div);
+
+      new Viewer({
+        width: 750,
+        height: 400,
+        left: "-260px",
+        bottom: "-60px",
+        basePath:
+          "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+        role: "lafei",
+        background: "",
+        opacity: 0.75,
+        mobile: false,
+      });
+    });
+
     // 防止恶意debug
-      // (() =>  {
-      //   if (
-      //     window.outerHeight - window.innerHeight > 200 ||
-      //     window.outerWidth - window.innerWidth > 200
-      //   ) {
-      //     document.body.innerHTML = "检测到非法调试,请关闭后刷新重试!";
-      //   }
-      //   setInterval(() => {
-      //     (function () {
-      //       return false;
-      //     }
-      //       ["constructor"]("debugger")
-      //       ["call"]());
-      //   }, 50);
-      // })();
+    // (() =>  {
+    //   if (
+    //     window.outerHeight - window.innerHeight > 200 ||
+    //     window.outerWidth - window.innerWidth > 200
+    //   ) {
+    //     document.body.innerHTML = "检测到非法调试,请关闭后刷新重试!";
+    //   }
+    //   setInterval(() => {
+    //     (function () {
+    //       return false;
+    //     }
+    //       ["constructor"]("debugger")
+    //       ["call"]());
+    //   }, 50);
+    // })();
   },
 
   //- 适配pjax刷新
   re: function () {
     this.appender();
-  }
+  },
 };
 Weidows.all();
