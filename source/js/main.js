@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const scrollPercent = (currentTop - headerHeight) / (contentMath)
         const scrollPercentRounded = Math.round(scrollPercent * 100)
         const percentage = (scrollPercentRounded > 100) ? 100 : (scrollPercentRounded <= 0) ? 0 : scrollPercentRounded
-        $tocPercentage.textContent = percentage
+        $tocPercentage.textContent = percentage + "%🔋";
       }
 
       window.mobileToc = {
