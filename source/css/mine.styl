@@ -2,8 +2,16 @@
 #page-header
   #site-title
   .post-title
-    color #cf31ba
+    color aqua
     text-shadow 0 0 5px #fc199a, 0 0 10px #fc199a7c
+  .post-title
+    animation title_color 2.5s linear infinite
+
+@keyframes title_color
+  0%
+    filter hue-rotate(0deg)
+  100%
+    filter hue-rotate(360deg)
 
 /*头部文字颜色*/
 a,
