@@ -341,8 +341,7 @@ const Weidows = {
 
     // live2d
     addEventListener("DOMContentLoaded", function () {
-      new Live2dLoader([
-        {
+      new Live2dLoader([{
           width: 750,
           height: 400,
           left: "-260px",
@@ -353,104 +352,7 @@ const Weidows = {
           background: "",
           opacity: 0.75,
           mobile: false,
-        },
-        {
-          width: 800,
-          height: 600,
-          left: "-250px",
-          bottom: "-100px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "dafeng_4",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 750,
-          height: 400,
-          left: "-200px",
-          bottom: "-20px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "wuqi_2",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 750,
-          height: 400,
-          right: "-200px",
-          bottom: "-40px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "xuefeng_3",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 700,
-          height: 400,
-          right: "-150px",
-          bottom: "-15px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "junhe_5",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 750,
-          height: 400,
-          right: "-210px",
-          bottom: "-10px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "longfeng_2",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 650,
-          height: 500,
-          right: "-165px",
-          bottom: "0px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "nengdai_2",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 650,
-          height: 500,
-          right: "-200px",
-          bottom: "-40px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "ninghai_4",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-        {
-          width: 650,
-          height: 500,
-          left: "-200px",
-          bottom: "-40px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "pinghai_4",
-          background: "",
-          opacity: 0.75,
-          mobile: false,
-        },
-      ]);
+        }]);
     });
 
     // 防止恶意debug
