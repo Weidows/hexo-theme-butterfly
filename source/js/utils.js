@@ -347,7 +347,7 @@ const Weidows = {
           left: "-260px",
           bottom: "-60px",
           basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "lafei",
           background: "",
           opacity: 0.75,
