@@ -891,6 +891,7 @@ inject:
     - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2dcubismcore.min.js"></script>
     - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/pixi.min.js"></script>
     - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2d.min.js"></script>
+    # - <script src="/js/live2d.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 

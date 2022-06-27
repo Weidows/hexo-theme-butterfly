@@ -344,15 +344,16 @@ const Weidows = {
       new Live2dLoader([{
           width: 750,
           height: 400,
-          left: "-260px",
-          bottom: "-60px",
+          left: "-240px",
+          bottom: "-50px",
           basePath:
             "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "lafei",
           background: "",
           opacity: 0.75,
           mobile: false,
-        }]);
+          scale: 0.07
+      }]);
     });
 
     // 防止恶意debug
