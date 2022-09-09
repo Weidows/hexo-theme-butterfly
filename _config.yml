@@ -351,7 +351,7 @@ valine:
 # https://waline.js.org/
 waline:
   # serverURL: https://waline-sigma.vercel.app # Waline server address url
-  serverURL: https://weidows.tk # Waline server address url
+  serverURL: https://waline.weidows.tk # Waline server address url
   bg: # waline background
   pageview: false
   option:
