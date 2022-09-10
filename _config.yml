@@ -357,11 +357,11 @@ waline:
   option:
     emoji:
       [
-        "https://fastly.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/",
-        "https://fastly.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus",
-        "https://fastly.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
-        "https://fastly.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq",
-        "https://fastly.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba",
+        "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/",
+        "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus",
+        "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
+        "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq",
+        "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba",
       ]
 
 # utterances
@@ -909,9 +909,9 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2dcubismcore.min.js"></script>
-    - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/pixi.min.js"></script>
-    - <script src="https://fastly.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2d.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2dcubismcore.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/pixi.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/Weidows-projects/live2d-moc3/dist/live2d.min.js"></script>
     # - <script src="/js/live2d.js"></script>
   bottom:
     # - <script src="xxxx"></script>

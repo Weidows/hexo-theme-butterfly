@@ -429,7 +429,7 @@ var Weidows = {
           left: "-260px",
           bottom: "-60px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "lafei",
           background: "",
           opacity: 0.75,
@@ -441,7 +441,7 @@ var Weidows = {
           left: "-250px",
           bottom: "-100px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "dafeng_4",
           background: "",
           opacity: 0.75,
@@ -453,7 +453,7 @@ var Weidows = {
           left: "-200px",
           bottom: "-20px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "wuqi_2",
           background: "",
           opacity: 0.75,
@@ -465,7 +465,7 @@ var Weidows = {
           right: "-200px",
           bottom: "-40px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "xuefeng_3",
           background: "",
           opacity: 0.75,
@@ -477,7 +477,7 @@ var Weidows = {
           right: "-150px",
           bottom: "-15px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "junhe_5",
           background: "",
           opacity: 0.75,
@@ -489,7 +489,7 @@ var Weidows = {
           right: "-210px",
           bottom: "-10px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "longfeng_2",
           background: "",
           opacity: 0.75,
@@ -501,7 +501,7 @@ var Weidows = {
           right: "-165px",
           bottom: "0px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "nengdai_2",
           background: "",
           opacity: 0.75,
@@ -513,7 +513,7 @@ var Weidows = {
           right: "-200px",
           bottom: "-40px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "ninghai_4",
           background: "",
           opacity: 0.75,
@@ -525,7 +525,7 @@ var Weidows = {
           left: "-200px",
           bottom: "-40px",
           basePath:
-            "https://fastly.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
+            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
           role: "pinghai_4",
           background: "",
           opacity: 0.75,
