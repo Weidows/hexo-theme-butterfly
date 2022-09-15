@@ -31,9 +31,10 @@ menu:
     新-闻: https://weidows-news.vercel.app
   兴趣爱好||fas fa-list:
     相册: gallery || fas fa-camera
-    说说: artitalk || fa fa-comment
-    番剧: tags/bangumis || fas fa-laptop
+    _番_: tags/bangumis || fas fa-laptop
     游戏: tags/games || fas fa-gamepad
+    _剧_: tags/cinema || fas fa-laptop
+    说说: artitalk || fa fa-comment
   关于||fas fa-heart:
     ->我<-: tags/about || fas fa-user
     友人帐: tags/link || fas fa-link
