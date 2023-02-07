@@ -341,19 +341,27 @@ const Weidows = {
 
     // live2d
     addEventListener("DOMContentLoaded", function () {
-      new Live2dLoader([{
-          width: 750,
+      new Live2dLoader([
+        {
+          width: 400,
           height: 400,
-          left: "-240px",
-          bottom: "-50px",
-          basePath:
-            "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets",
-          role: "lafei",
-          background: "",
+          left: "-70px",
+          bottom: "0px",
+          role: "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets/lafei/lafei.model3.json",
           opacity: 0.75,
-          mobile: false,
-          scale: 0.07
-      }]);
+          scale: 0.35,
+        },
+        {
+          width: 600,
+          height: 450,
+          left: "-100px",
+          bottom: "0px",
+          role: "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets/lafei_4/lafei_4.model3.json",
+          opacity: 0.75,
+          scale: 0.07,
+          draggable: true
+        },
+      ]);
     });
 
     // 防止恶意debug
