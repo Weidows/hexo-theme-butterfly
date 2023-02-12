@@ -352,15 +352,25 @@ const Weidows = {
           scale: 0.35,
         },
         {
-          width: 600,
+          width: 500,
           height: 450,
           left: "-100px",
           bottom: "0px",
           role: "https://cdn.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets/lafei_4/lafei_4.model3.json",
           opacity: 0.75,
           scale: 0.07,
-          draggable: true
+          draggable: false
         },
+        // {
+        //   width: 800,
+        //   height: 500,
+        //   left: "0px",
+        //   bottom: "0px",
+        //   role: "https://npm.elemecdn.com/live2dofatri@1.0.7/marisagai/marisa.model3.json",
+        //   opacity: 0.75,
+        //   scale: 0.2,
+        //   draggable: true,
+        // },
       ]);
     });
 

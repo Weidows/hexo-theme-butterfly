@@ -56,21 +56,26 @@ a,
 
 /*scrollbar*/
 ::-webkit-scrollbar
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 
+::-webkit-scrollbar-track
+  display: none
+
+/*定义滑块 样式*/
 ::-webkit-scrollbar-thumb
-  background-color: rgba(255, 86, 232, 0.815);
-  background-image: -webkit-linear-gradient(
-    75deg,
-    #007ec6 20%,
-    #4dc820 40%,
-    orange 60%,
-    #ff4c4c 80%,
-    #8833d7 100%,
+  background-color: rgba(255, 91, 233, 0.5);
+  background-image: linear-gradient(
+    34deg,
+    rgba(0, 126, 198, 0.8) 0%,
+    rgba(77, 200, 32, 0.7) 30%,
+    rgba(217, 255, 2, 0.6) 55%,
+    rgba(221, 7, 185, 0.6) 75%,
+    rgba(136, 51, 215, 0.5) 90%,
     transparent
   );
-  border-radius: 2em;
+  border: 1px solid #39db82;
+  border-radius: 10px;
 
 ::-webkit-scrollbar-corner
   background-color: transparent;

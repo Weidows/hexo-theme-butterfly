@@ -587,7 +587,12 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
   # "#000000"
-  url(https://apibug.cn/api/ecy/&apiKey=f8cc70396a24d39e8ddac01bdf2bb0f7)
+  # url(https://apibug.cn/api/ecy/&apiKey=f8cc70396a24d39e8ddac01bdf2bb0f7)
+  # url(https://api.ixiaowai.cn/api/api.php)
+  # url(https://api.r10086.com/img-api.php?type=动漫综合10)
+  # url(https://api.yimian.xyz/img)
+  # url(https://api.likepoems.com/img/pc)
+  url(https://moe.jitsu.top/img/?sort=pc)
 
 # Footer Background
 footer_bg: true
@@ -952,7 +957,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     - <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/combine/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js,npm/pixi.js@6.5.2/dist/browser/pixi.min.js,npm/pixi-live2d-display/dist/index.min.js,gh/Weidows-projects/Live2dLoader/dist/Live2dLoader.min.js"></script>
-    # - <script src="/js/live2d.js"></script>
+    # - <script src="https://cdn.jsdelivr.net/combine/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js,npm/pixi.js@6.5.2/dist/browser/pixi.min.js,npm/pixi-live2d-display/dist/index.min.js"></script>
+    # - <script src="/js/Live2dLoader.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 
