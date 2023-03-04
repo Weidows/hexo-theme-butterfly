@@ -42,6 +42,11 @@ menu:
     留言板: tags/comment || fas fa-comments
     简👶历: tags/resume || fas fa-user
 
+nav:
+  logo: # image
+  display_title: true
+  fixed: false # fixed navigation bar
+
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -88,6 +93,15 @@ local_search:
   enable: true
   preload: false
   CDN:
+
+# Docsearch
+# https://docsearch.algolia.com/
+docsearch:
+  enable: false
+  appId:
+  apiKey:
+  indexName:
+  option:
 
 # Math (數學)
 # --------------------------------------
@@ -220,6 +234,7 @@ toc:
   number: false
   expand: false
   style_simple: false # for post
+  scroll_percent: true
 
 post_copyright:
   enable: true
@@ -446,7 +461,7 @@ tidio:
   public_key:
 
 # daovoice
-# http://daovoice.io/
+# http://dashboard.daovoice.io/app
 daovoice:
   enable: false
   app_id:
@@ -489,10 +504,6 @@ baidu_analytics:
 # Google Analytics
 # https://analytics.google.com/analytics/web/
 google_analytics:
-
-# CNZZ Analytics
-# https://www.umeng.com/
-cnzz_analytics:
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
@@ -700,16 +711,13 @@ subtitle:
   enable: true
   # Typewriter Effect (打字效果)
   effect: true
-  # Effect Speed Options (打字效果速度參數)
-  startDelay: 300 # time before typing starts in milliseconds
-  typeSpeed: 150 # type speed in milliseconds
-  backSpeed: 50 # backspacing speed in milliseconds
-  # loop (循環打字)
-  loop: false
+  # Customize typed.js (配置typed.js)
+  # https://github.com/mattboldt/typed.js/#customization
+  typed_option:
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: 1
@@ -763,8 +771,10 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 40 # if set 0 will show all
+    limit: 70 # if set 0 will show all
     color: true
+    orderby: random # Order of tags, random/name/length
+    order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: false
@@ -830,6 +840,9 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: false
+
+# show scroll percent in scroll-to-top button
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -992,6 +1005,8 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
+    # docsearch_js:
+    # docsearch_css:
     # pjax:
     # gitalk:
     # gitalk_css:
@@ -1035,3 +1050,4 @@ CDN:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
+    # busuanzi:
