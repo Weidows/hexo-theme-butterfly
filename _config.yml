@@ -129,7 +129,7 @@ favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAABNCAYAAADn/DmNAAAa
 
 # Avatar (頭像)
 avatar:
-  img: https://s1.imagehub.cc/images/2023/03/30/eab1242d25bece550d03b93d301434f8.png
+  img: https://cdn.jsdelivr.net/gh/Weidows/Weidows/image/avatar.png
   effect: false
 
 # Disable all banner image
