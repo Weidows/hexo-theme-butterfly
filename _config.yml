@@ -26,15 +26,16 @@ menu:
     Notion: https://www.notion.so/weidows/03f1a8bbc340412a897705d7440b5484
     # 语 雀: https://www.yuque.com/weidows/obg4ir
     新 闻: https://weidows-news.vercel.app
+    Q-A: tags/QA
     几个生成器: generator
     站点状态检测: https://stats.uptimerobot.com/22R3Pfkjzv
     SSL-Check: https://weidows-projects.github.io/Keeper
     Weidows-projects: https://github.com/Weidows-projects
   兴趣爱好||fas fa-list:
-    相册: gallery || fas fa-camera
     _番_: tags/bangumis || fas fa-laptop
     游戏: tags/games || fas fa-gamepad
     _剧_: tags/cinema || fas fa-laptop
+    相册: gallery || fas fa-camera
     说说: artitalk || fa fa-comment
   关于||fas fa-heart:
     ->我<-: tags/about || fas fa-user
