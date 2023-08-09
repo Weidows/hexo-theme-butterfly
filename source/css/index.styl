@@ -12,13 +12,8 @@ if hexo-config('css_prefix')
 @import '_mode/*'
 
 // search
-if hexo-config('algolia_search.enable')
-  @import '_search/index'
-  @import '_search/algolia'
+@import '_search/index'
 
-if hexo-config('local_search') && hexo-config('local_search.enable')
-  @import '_search/index'
-  @import '_search/local-search'
 
 //mine
 @import 'mine.styl'
