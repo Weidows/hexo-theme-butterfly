@@ -28,7 +28,9 @@ menu:
     Gitee站: https://weidows.gitee.io || fas fa-bath
     GitHub站: https://weidows.github.io || fas fa-shower
   传送门|| fas fa-rocket:
-    GitHub仓库: https://github.com/Weidows?tab=repositories
+    Weidows-projects: tags/Weidows-projects
+    Hebau-Community: tags/Hebau-Community
+    ----------: /404
     Notion: https://www.notion.so/weidows/03f1a8bbc340412a897705d7440b5484
     # 语 雀: https://www.yuque.com/weidows/obg4ir
     新 闻: https://weidows-news.vercel.app
@@ -36,7 +38,6 @@ menu:
     几个生成器: generator
     站点状态检测: https://stats.uptimerobot.com/22R3Pfkjzv
     SSL-Check: https://weidows-projects.github.io/Keeper
-    Weidows-projects: https://github.com/Weidows-projects
   兴趣爱好||fas fa-list:
     _番_: tags/bangumis || fas fa-laptop
     游戏: tags/games || fas fa-gamepad
@@ -140,7 +141,7 @@ post_meta:
   page: # Home Page
     date_type: updated # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: relative # date/relative 顯示日期還是相對日期
-    categories: false # true or false 主頁是否顯示分類
+    categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
