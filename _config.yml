@@ -22,17 +22,15 @@ menu:
   开往: https://www.travellings.cn/go.html || fas fa-car
   传送门|| fas fa-home:
     # 文章统计: tags/charts || fas fa-signal
+    Vercel-site: https://blog.weidows.tech || fas fa-rocket
+    GitHub-site: https://weidows.github.io || fas fa-shower
     标 签: tags || fas fa-tags
     分 类: categories || fas fa-folder-open
     时间轴: archives || fas fa-archive
-    # Gitee站: https://weidows.gitee.io || fas fa-bath
-    # GitHub站: https://weidows.github.io || fas fa-shower
-  # 传送门|| fas fa-rocket:
     ----------: /
     Q-A: post/experience/QA
     Notion: https://www.notion.so/weidows/03f1a8bbc340412a897705d7440b5484
     Weidows-projects: tags/Weidows-projects
-    # Hebau-Community: tags/Hebau-Community
     # 语 雀: https://www.yuque.com/weidows/obg4ir
     # 新 闻: https://weidows-news.vercel.app
     # 站点状态检测: https://stats.uptimerobot.com/22R3Pfkjzv
@@ -276,7 +274,7 @@ aside:
       link: https://github.com/Weidows
   card_announcement:
     enable: true
-    content: '<center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><h3 style="color:gray">低情商：代码一坨屎<br>高情商：兼容性极强</h3> 欢迎加我QQ或群 942848525 <img src="https://count.getloli.com/get/@Weidows?theme=rule34" style="width: 100%" /></center>'
+    content: '<center><h2 style="color:aqua">-> 欢迎,锟斤拷! <-</h2><h3 style="color:gray">低情商：代码一坨屎<br>高情商：兼容性极强</h3> 欢迎加我QQ或群 942848525 <img src="https://moe.counter.weidows.tech/Weidows?theme=rule34" style="width: 100%" /></center>'
   card_recent_post:
     enable: true
     limit: 6 # if set 0 will show all
@@ -498,7 +496,9 @@ valine:
 # https://waline.js.org/
 waline:
   # serverURL: https://waline-sigma.vercel.app # Waline server address url
-  serverURL: https://waline.270916.xyz # 这个域名不需要备案而且国内可访问
+  # serverURL: https://waline.270916.xyz
+  # 这个域名不需要备案而且国内可访问
+  serverURL: https://waline.weidows.tech
   bg: # waline background
   pageview: false
   option:
@@ -614,7 +614,7 @@ baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-BHH5BNEG3S
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
@@ -649,18 +649,15 @@ site_verification:
   #   content: xxxxxx
   # - name: baidu-site-verification
   #   content: xxxxxxx
-  - name: google-site-verification #GitHub
+  # weidows.github.io
+  - name: google-site-verification
     content: 63ToVDqwHzHL8gCsk3EDT__plD-ytNXcHbiAt9lMh9Y
-  - name: google-site-verification #Gitee
-    content: TYTmLCtbjOUJ5Paa-vxLmLscpf7kJV9D_Ud5pJl6UaY
-  - name: bing-site-verification #GitHub+Gitee
+  # weidows.github.io
+  - name: bing-site-verification
     content: B99F807E806B2C297FF5818253DDD408
+  # weidows.tech
   - name: baidu-site-verification
-    content: code-82v5yxnEC4
-  - name: baidu-site-verification
-    content: code-iDy54Uv2f1
-  - name: baidu-site-verification #Gitee
-    content: code-IfmDfNug1l
+    content: codeva-DtWUI0ptS9
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
