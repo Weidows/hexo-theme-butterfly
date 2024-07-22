@@ -655,9 +655,9 @@ site_verification:
   # weidows.github.io
   - name: bing-site-verification
     content: B99F807E806B2C297FF5818253DDD408
-  # weidows.tech
+  # blog.weidows.tech
   - name: baidu-site-verification
-    content: codeva-DtWUI0ptS9
+    content: codeva-S90fjC0lEU
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
