@@ -36,9 +36,10 @@ menu:
     # 站点状态检测: https://stats.uptimerobot.com/22R3Pfkjzv
     # SSL-Check: https://weidows-projects.github.io/Keeper
   兴趣爱好||fas fa-list:
-    _番_: tags/bangumis || fas fa-laptop
-    _剧_: tags/cinema || fas fa-laptop
-    游戏: tags/games || fas fa-gamepad
+    Bangumi: https://bangumi.tv/user/823155 || fas fa-laptop
+    # _番_: tags/bangumis || fas fa-laptop
+    # cinema: tags/cinema || fas fa-laptop
+    Steam: tags/games || fas fa-gamepad
     # 相册: gallery || fas fa-camera
     说说: artitalk || fa fa-comment
   关于||fas fa-heart:
