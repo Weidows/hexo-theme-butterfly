@@ -21,12 +21,12 @@ menu:
   首页: / || fas fa-plane
   开往: https://www.travellings.cn/go.html || fas fa-car
   传送门|| fas fa-home:
-    # 文章统计: tags/charts || fas fa-signal
     Vercel-site: https://blog.weidows.tech || fas fa-rocket
     GitHub-site: https://weidows.github.io || fas fa-shower
     标 签: tags || fas fa-tags
     分 类: categories || fas fa-folder-open
     时间轴: archives || fas fa-archive
+    文章统计: tags/charts || fas fa-signal
     ----------: /
     Q-A: post/experience/QA
     Notion: https://www.notion.so/weidows/03f1a8bbc340412a897705d7440b5484
@@ -650,12 +650,9 @@ site_verification:
   #   content: xxxxxx
   # - name: baidu-site-verification
   #   content: xxxxxxx
-  # weidows.github.io
-  - name: google-site-verification
-    content: 63ToVDqwHzHL8gCsk3EDT__plD-ytNXcHbiAt9lMh9Y
-  # weidows.github.io
-  - name: bing-site-verification
-    content: B99F807E806B2C297FF5818253DDD408
+  # - name: bing-site-verification
+  #   content: xxxxxxx
+
   # blog.weidows.tech
   - name: baidu-site-verification
     content: codeva-S90fjC0lEU
