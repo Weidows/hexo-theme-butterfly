@@ -381,7 +381,7 @@ const Weidows = {
           { passive: false }
         );
       }
-    }, 1500);
+    }, 1000);
   },
 
   //- 初始化
