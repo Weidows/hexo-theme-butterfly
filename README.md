@@ -10,7 +10,7 @@
 ![hexo version](https://img.shields.io/badge/hexo-5.3.0+-0e83c)
 ![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/theme-butterfly-readme.png)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/theme-butterfly-readme.png)
 
 Demo: 👍 [Butterfly](https://butterfly.js.org/)  ||   🤞 [CrazyWong](https://blog.crazywong.com/)
 
@@ -40,7 +40,7 @@ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/bu
 
 > It supports Hexo 5.0.0 or later
 
-In Hexo site root directory 
+In Hexo site root directory
 
 ```powershell
 npm i hexo-theme-butterfly
@@ -48,11 +48,11 @@ npm i hexo-theme-butterfly
 
 ## ⚙ Configuration
 
- Set theme in the hexo work folder's root config file `_config.yml`: 
+ Set theme in the hexo work folder's root config file `_config.yml`:
 
 > theme: butterfly
 
- If you don't have pug & stylus renderer, try this: 
+ If you don't have pug & stylus renderer, try this:
 
 > npm install hexo-renderer-pug hexo-renderer-stylus
 
@@ -103,9 +103,9 @@ npm i hexo-theme-butterfly
 
 ## 📷 Screenshots
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-1.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-2.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-3.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-1.jpg)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-2.jpg)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-3.jpg)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
+![](https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
