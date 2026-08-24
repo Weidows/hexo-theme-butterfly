@@ -40,8 +40,6 @@ menu:
     # _番_: tags/bangumis || fas fa-laptop
     # cinema: tags/cinema || fas fa-laptop
     Steam: tags/games || fas fa-gamepad
-    # 相册: gallery || fas fa-camera
-    说说: artitalk || fa fa-comment
   关于||fas fa-heart:
     友人帐: tags/link || fas fa-link
     留言板: tags/comment || fas fa-comments
